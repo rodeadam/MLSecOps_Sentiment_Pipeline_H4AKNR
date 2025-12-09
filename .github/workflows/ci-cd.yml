@@ -23,8 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # Install all dependencies except apache-airflow
-        grep -v "apache-airflow" requirements.txt > requirements-ci.txt || true
+        pip install -r requirements_docker.txt
         pip install pytest pytest-cov
         
     - name: Run unit tests
