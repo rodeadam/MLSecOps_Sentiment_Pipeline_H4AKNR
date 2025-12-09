@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Mobile Reviews Sentiment Analysis - MLSecOps Pipeline
-
 A complete MLSecOps pipeline for predicting mobile phone review sentiment (Positive, Negative, Neutral) using XGBoost, with MLflow experiment tracking, Airflow orchestration, Docker containerization, and Evidently AI monitoring.
 
 ## Table of Contents
@@ -661,12 +659,8 @@ Then rebuild and restart services.
 Expected performance on the full dataset (50,000 reviews):
 
 - **Training Time**: ~1-5 minutes (depends on hardware)
-- **Test Accuracy**: ~82-87%
+- **Test Accuracy**: ~85-95%
 - **Per-class F1-scores**: ~0.80-0.88
 - **Prediction Latency**: <100ms for single review
 
-
 **Last Updated**: December 2025
-=======
-# MLSecOps_final_project_H4AKNR
->>>>>>> 78014ac6b39528881ccfc056b8dd77cd446b3cd1
